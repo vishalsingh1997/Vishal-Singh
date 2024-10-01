@@ -42,7 +42,22 @@ const MobileNav = () => {
           </h1>
         </div>
         {/* nav  */}
-        <nav>nav</nav>
+        <nav className="flex flex-col items-start justify-center gap-6 mt-4">
+          {links.map((link, index) => {
+            return (
+              <Link
+                key={index}
+                href={link.path}
+                className={`${
+                  link.path === pathname &&
+                  "text-accent border-b-2 border-accent"
+                } text-lg capitalize hover:text-accent transition-all`}
+              >
+                {link.name}{" "}
+              </Link>
+            );
+          })}
+        </nav>
       </SheetContent>
     </Sheet>
   );
