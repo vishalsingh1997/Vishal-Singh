@@ -13,7 +13,8 @@ const Home = () => {
           <div className="text-center xl:text-left">
             <span className="lg:text-2xl text-xl">Software Developer</span>
             <h1 className="h1 mb-6">
-              Hello I'm <br /><span className="text-accent">Vishal Singh</span>
+              Hello I'm <br />
+              <span className="text-accent">Vishal Singh</span>
             </h1>
             <p className="max-w-[500px] mb-9 text-white/70">
               I excel at crafting elegant digital experiences and I am
@@ -21,12 +22,19 @@ const Home = () => {
             </p>
             {/* button and social icons  */}
             <div className="flex flex-col items-center gap-8  lg:flex-row">
-              <Button variant="outline" size="lg" className="flex items-center gap-2">
+              <Button
+                variant="outline"
+                size="lg"
+                className="flex items-center gap-2"
+              >
                 <span>Download CV</span>
                 <FiDownload className="text-xl" />
               </Button>
               <div className="mb-8 lg:mb-0">
-                <Socials containerStyles="flex gap-6" iconStyles="w-9 h-9 border border-accent rounded-full flex justify-center items-center hover:bg-accent text-base hover:text-primary hover:transition-all duration-500" />
+                <Socials
+                  containerStyles="flex gap-6"
+                  iconStyles="w-9 h-9 border border-accent rounded-full flex justify-center items-center hover:bg-accent text-base hover:text-primary hover:transition-all duration-500"
+                />
               </div>
             </div>
           </div>
