@@ -4,6 +4,7 @@ import { Button } from "./ui/button";
 //components
 import Nav from "./Nav";
 import MobileNav from "./MobileNav";
+import { FaPhoneAlt } from "react-icons/fa";
 
 const Header = () => {
   return (
@@ -20,8 +21,10 @@ const Header = () => {
 
         <div className="hidden lg:flex items-center gap-8">
           <Nav />
-          <Link href="/contact">
-            <Button>Hire Me</Button>
+          <Link href="tel:+916395458500">
+            <Button className="flex items-center gap-2">
+              Hire Me <FaPhoneAlt />
+            </Button>
           </Link>
         </div>
 
