@@ -252,7 +252,7 @@ const Resume = () => {
                       {skills.skillslist.map((skill, index) => {
                         return (
                           <li key={index}>
-                            <TooltipProvider delaDuration={100}>
+                            <TooltipProvider delayDuration={100}>
                               <Tooltip>
                                 <TooltipTrigger className="w-full h-[120px] bg-[#232329] rounded-xl flex justify-center items-center group">
                                   <div className="text-5xl group-hover:text-accent transition-all duration-300">
