@@ -29,9 +29,10 @@ const projects = [
       { name: "Saas" },
       { name: "Redux" },
       { name: "Axios" },
+      { name: "Git" },
     ],
     image: "/assets/projects/vibes.png",
-    live: "",
+    live: "https://vibes-two.vercel.app/",
     github: "",
   },
   {
