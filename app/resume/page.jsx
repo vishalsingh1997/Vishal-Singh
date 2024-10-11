@@ -8,6 +8,7 @@ import {
   FaNodeJs,
   FaBootstrap,
   FaWordpress,
+  FaGithub,
 } from "react-icons/fa";
 
 import {
@@ -177,6 +178,10 @@ const skills = {
       icon: <SiTypescript />,
       name: "TypeScript",
     },
+    {
+      icon: <FaGithub />,
+      name: "Github",
+    },  
     {
       icon: <FaWordpress />,
       name: "WordPress",
