@@ -2,6 +2,7 @@ import Photo from "@/components/Photo";
 import Socials from "@/components/Socials";
 import Stats from "@/components/Stats";
 import { Button } from "@/components/ui/button";
+import Link from "next/link";
 import { FiDownload } from "react-icons/fi";
 
 const Home = () => {
@@ -22,14 +23,16 @@ const Home = () => {
             </p>
             {/* button and social icons  */}
             <div className="flex flex-col items-center gap-8  lg:flex-row">
-              <Button
-                variant="outline"
-                size="lg"
-                className="flex items-center gap-2"
-              >
-                <span>Download CV</span>
-                <FiDownload className="text-xl" />
-              </Button>
+              <Link href='/assets/cv/Vishalcv.pdf'>
+                <Button
+                  variant="outline"
+                  size="lg"
+                  className="flex items-center gap-2"
+                >
+                  <span>Download CV</span>
+                  <FiDownload className="text-xl" />
+                </Button>
+              </Link>
               <div className="mb-8 lg:mb-0">
                 <Socials
                   containerStyles="flex gap-6"
