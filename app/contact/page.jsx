@@ -53,8 +53,6 @@ const Contact = () => {
     setFormData({ ...formData, [name]: value });
   };
 
-  
-
   const handleSelectChange = (value) => {
     setFormData({ ...formData, service: value });
   };
@@ -88,7 +86,7 @@ const Contact = () => {
       .then((response) => {
         // console.log("Email sent successfully..🎉", response.status, response.text);
         toast.success("Email sent successfully..🎉", {
-          position: "top-right",
+          position: "bottom-right",
           theme: "dark",
         });
 
@@ -105,7 +103,7 @@ const Contact = () => {
       .catch((err) => {
         console.error("Failed to send email:", err);
         toast.error("Ooops..! Failed to send email. ❌", {
-          position: "top-right",
+          position: "bottom-right",
           theme: "dark",
         });
       });
@@ -131,8 +129,8 @@ const Contact = () => {
             >
               <h3 className="text-4xl text-accent">Let's Work together</h3>
               <p className="text-white/60">
-                Lorem ipsum dolor sit amet consectetur adipisicing elit.
-                Exercitationem, molestiae!
+                Please fill out the form below to inquire about the services I
+                offer. I will get back to you promptly. Thank you! 🚀
               </p>
               {/* input  */}
               <div className="grid grid-cols-1 lg:grid-cols-2 gap-6">
@@ -142,6 +140,7 @@ const Contact = () => {
                   name="firstname"
                   value={formData.firstname}
                   onChange={handleChange}
+                  required
                 />
                 <Input
                   type="lastname"
@@ -156,6 +155,7 @@ const Contact = () => {
                   name="email"
                   value={formData.email}
                   onChange={handleChange}
+                  required
                 />
                 <Input
                   type="phone"
@@ -163,6 +163,7 @@ const Contact = () => {
                   name="phone"
                   value={formData.phone}
                   onChange={handleChange}
+                  required
                 />
               </div>
               {/* select  */}
@@ -193,6 +194,7 @@ const Contact = () => {
                 name="message"
                 value={formData.message}
                 onChange={handleChange}
+                required
               />
               {/* Submit btn  */}
               <Button type="submit" className="max-w-48 gap-2 " size="md">
