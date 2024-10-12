@@ -18,6 +18,7 @@ import { BsSendFill } from "react-icons/bs";
 import { motion } from "framer-motion";
 import { useState } from "react";
 import emailjs from "@emailjs/browser";
+import { toast } from "react-toastify";
 
 const info = [
   {
@@ -52,6 +53,8 @@ const Contact = () => {
     setFormData({ ...formData, [name]: value });
   };
 
+  
+
   const handleSelectChange = (value) => {
     setFormData({ ...formData, service: value });
   };
@@ -78,13 +81,17 @@ const Contact = () => {
 
     const serviceId = "service_n4tykla";
     const templateId = "template_o3v91zi";
-    const userId = "BARMjYz2LnjU4Zn52"; // You can also use your API Key here
+    const userId = "BARMjYz2LnjU4Zn52";
 
     emailjs
       .send(serviceId, templateId, formData, userId)
       .then((response) => {
-        console.log("Email sent successfully:", response.status, response.text);
-        alert("Email sent successfully");
+        // console.log("Email sent successfully..🎉", response.status, response.text);
+        toast.success("Email sent successfully..🎉", {
+          position: "top-right",
+          theme: "dark",
+        });
+
         // Reset form data after submission
         setFormData({
           firstname: "",
@@ -97,6 +104,10 @@ const Contact = () => {
       })
       .catch((err) => {
         console.error("Failed to send email:", err);
+        toast.error("Ooops..! Failed to send email. ❌", {
+          position: "top-right",
+          theme: "dark",
+        });
       });
   };
 
