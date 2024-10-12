@@ -77,7 +77,7 @@ const Contact = () => {
     };
 
     const serviceId = "service_n4tykla";
-    const templateId = "template_3lzivkt";
+    const templateId = "template_o3v91zi";
     const userId = "BARMjYz2LnjU4Zn52"; // You can also use your API Key here
 
     emailjs
