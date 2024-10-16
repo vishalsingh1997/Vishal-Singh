@@ -37,7 +37,7 @@ import Link from "next/link";
 const about = {
   title: "About Me",
   description:
-    "Lorem ipsum, dolor sit amet consectetur adipisicing elit. Officia ab quisquam qui.",
+    "I’m a web developer with over 2+ years of experience, skilled in multiple technologies, always exploring new tools and enhancing my skills every day.",
   info: [
     { fieldName: "Name", fieldValue: "Vishal Singh" },
     {
@@ -66,7 +66,7 @@ const about = {
 const experience = {
   title: "My Experience",
   description:
-    "Lorem ipsum dolor sit amet consectetur adipisicing elit. Consectetur eius beatae odit.",
+    "With over 2+ years of development experience, I’ve worked on various technologies, delivering innovative solutions and enhancing user experiences.",
   items: [
     {
       company: "GlobEdwise Pvt Ltd",
@@ -95,7 +95,7 @@ const experience = {
 const education = {
   title: "My Education",
   description:
-    "Lorem ipsum dolor sit amet consectetur adipisicing elit. Consectetur eius beatae odit.",
+    "Holding a Diploma and B.Tech, I launched my career as a web developer, combining education with practical skills.",
   items: [
     {
       institute: "SPMIT (AKTU) Prayagraj, UP",
@@ -124,7 +124,7 @@ const education = {
 const skills = {
   title: "My Skills",
   description:
-    "Lorem ipsum dolor sit amet consectetur adipisicing elit. Consectetur eius beatae odit.",
+    "Skilled in multiple technologies, with a focus on React.js, Next.js, MERN stack, and WordPress for dynamic web development.",
   skillslist: [
     {
       icon: <FaHtml5 />,
@@ -246,12 +246,12 @@ const Resume = () => {
               {/* skills  */}
               <TabsContent value="skills" className="w-full">
                 <div className="flex flex-col gap-[30px] text-center lg:text-left">
-                  <div>
+                 
                     <h3 className="text-4xl font-bold">{skills.title}</h3>
                     <p className="max-w-[600px] text-white/50 mx-auto lg:mx-0">
                       {skills.description}
                     </p>
-                  </div>
+                  
                   <ScrollArea className="h-[400px]">
                     <ul className="grid grid-cols-2 sm:grid-cols-3 md:grid-cols-4 lg:gap-[24px] gap-3">
                       {skills.skillslist.map((skill, index) => {

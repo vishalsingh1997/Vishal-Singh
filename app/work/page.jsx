@@ -23,7 +23,7 @@ const projects = [
     category: "frontend",
     title: "Project 1",
     description:
-      "Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptatibus, placeat.",
+      "I created a movie website called 'VIBES' for watching trailers using the TMDB API. I developed the frontend using React.js, Redux, Axios, SASS, infinite scroll, and Git.",
     stack: [
       { name: "React JS" },
       { name: "Saas" },
@@ -40,7 +40,7 @@ const projects = [
     category: "frontend",
     title: "Project 2",
     description:
-      "Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptatibus, placeat.",
+      "I developed a website for Globedwise using Next.js, incorporating Bootstrap 5, TypeScript, React Slick Slider, Axios, and Git.",
     stack: [
       { name: "Next.js" },
       { name: "Bootstrap 5" },
@@ -54,10 +54,27 @@ const projects = [
   },
   {
     num: "03",
-    category: "frontend",
+    category: "WordPress ",
     title: "Project 3",
     description:
-      "Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptatibus, placeat.",
+      "I developed the website dotzoo.net for Dotzoo.inc. using WordPress from scratch. Utilizing Elementor and its addons, I chose the Phlox theme and implemented the Metform plugin for the contact form. After completion, I deployed it on the domain dotzoo.net.",
+    stack: [
+      { name: "WordPress" },
+      { name: "Elementor" },
+      { name: "Elementor Addons" },
+      { name: "Phlox theme" },
+      { name: "MetForm" },
+    ],
+    image: "/assets/projects/dotzoo.png",
+    live: "https://www.dotzoo.net/",
+    github: "",
+  },
+  {
+    num: "04",
+    category: "frontend",
+    title: "Project 4",
+    description:
+      "I created the website ielts.Globedwise using React.js, featuring React Bootstrap, TypeScript, React Slick Slider, Axios, and Git. This site is dedicated to running their Google ads on a live subdomain.",
     stack: [
       { name: "React JS" },
       { name: "Bootstrap" },
@@ -66,6 +83,22 @@ const projects = [
     ],
     image: "/assets/projects/ieltsGlobedwise.png",
     live: "https://ielts.globedwise.com/",
+    github: "",
+  },
+  {
+    num: "05",
+    category: "WP E-commerce",
+    title: "Project 5",
+    description:
+      "I created an E-Commerce website called PPE Mart using WordPress to sell COVID-19 and PPE kit products. I utilized Elementor and WooCommerce, setting up the entire E-commerce functionality with the Zakra theme.",
+    stack: [
+      { name: "WordPress" },
+      { name: "Elementor" },
+      { name: "Woocommerce" },
+      { name: "Zakra theme" },
+    ],
+    image: "/assets/projects/ppemart.png",
+    live: "https://www.ppe-mart.com/",
     github: "",
   },
 ];
@@ -135,7 +168,7 @@ const Work = () => {
                   </TooltipProvider>
                 </Link>
                 {/* Project github repo button  */}
-                <Link href={project.github} >
+                <Link href={project.github}>
                   <TooltipProvider delayDuration={100}>
                     <Tooltip>
                       <TooltipTrigger className="w-[70px] h-[70px] rounded-full bg-white/20 flex items-center justify-center group ">

@@ -10,28 +10,28 @@ const services = [
     num: "01",
     title: "Web Development",
     description:
-      " Lorem ipsum dolor sit amet consectetur adipisicing elit. Dolorem, omnis!",
+      "I specialize in creating high-performance websites using React and Next.js, delivering exceptional user experiences.",
     path: "",
   },
   {
     num: "02",
     title: "WordPress Development",
     description:
-      " Lorem ipsum dolor sit amet consectetur adipisicing elit. Dolorem, omnis!",
+      "I create beautiful, customized WordPress sites using Elementor and Divi, enhancing your online presence effortlessly.",
     path: "",
   },
   {
     num: "03",
     title: "SEO",
     description:
-      " Lorem ipsum dolor sit amet consectetur adipisicing elit. Dolorem, omnis!",
+      "I offer comprehensive SEO services, expertly managing both on-page and off-page strategies to boost visibility.",
     path: "",
   },
   {
     num: "04",
     title: "Figma Design/MockUp",
     description:
-      " Lorem ipsum dolor sit amet consectetur adipisicing elit. Dolorem, omnis!",
+      "I can design customized logos, mock-ups, and wireframes in Figma, perfectly aligned with your project needs.",
     path: "",
   },
 ];

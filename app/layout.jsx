@@ -17,7 +17,7 @@ const jetBrainsMono = JetBrains_Mono({
 export const metadata = {
   title: "Vishal Singh: A Software Developer",
   description:
-    "Vishal Singh: A Software Developer, your can contact me on linkedin, Email & Contact No.",
+    "Vishal Singh: A Software Developer, you can contact me on linkedin, Email & Contact No.",
 };
 
 export default function RootLayout({ children }) {
