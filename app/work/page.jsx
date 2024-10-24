@@ -101,6 +101,22 @@ const projects = [
     live: "https://www.ppe-mart.com/",
     github: "",
   },
+  {
+    num: "06",
+    category: "WP CoffeeShop",
+    title: "Project 6",
+    description:
+      "I developed a website for a client offering web development services using the Divi theme and page builder. The project included creating a visually appealing blog page for a coffee shop and integrating WhatsApp chat functionality to enhance customer engagement.",
+    stack: [
+      { name: "WordPress" },
+      { name: "Divi Page Builder" },
+      { name: "Whatsapp API" },
+      { name: "Divi theme" },
+    ],
+    image: "/assets/projects/coffeeshop.png",
+    live: "https://coffeeshopwebsite.com/",
+    github: "",
+  },
 ];
 
 const Work = () => {
