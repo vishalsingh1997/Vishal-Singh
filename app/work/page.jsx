@@ -117,6 +117,22 @@ const projects = [
     live: "https://coffeeshopwebsite.com/",
     github: "",
   },
+  {
+    num: "07",
+    category: "Bibek Trust",
+    title: "Project 7",
+    description:
+      "This is a Simple React Js Website for a Trust, which name Is Bibek Trust, Here I created a beautiful and responsive UI in React JS with Tailwind CSS for styling and Client is using Zoho Form",
+    stack: [
+      { name: "React JS" },
+      { name: "Tailwind CSS" },
+      { name: "Zoho Form" },
+      { name: "Github" },
+    ],
+    image: "/assets/projects/bibektrust.png",
+    live: "https://bibektrust.org/",
+    github: "",
+  },
 ];
 
 const Work = () => {
