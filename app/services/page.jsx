@@ -17,7 +17,7 @@ const services = [
     num: "02",
     title: "WordPress Development",
     description:
-      "I create beautiful, customized WordPress sites using Elementor and Divi, enhancing your online presence effortlessly.",
+      "I design visually stunning and fully customized WordPress websites using Elementor and Divi, helping you elevate your online presence with ease.",
     path: "",
   },
   {

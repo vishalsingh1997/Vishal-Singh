@@ -9,6 +9,7 @@ import {
   FaBootstrap,
   FaWordpress,
   FaGithub,
+  FaShopify,
 } from "react-icons/fa";
 
 import {
@@ -69,9 +70,14 @@ const experience = {
     "With over 2+ years of development experience, I’ve worked on various technologies, delivering innovative solutions and enhancing user experiences.",
   items: [
     {
-      company: "GlobEdwise Pvt Ltd",
+      company: "Climbax Entertainment Pvt Ltd.",
       position: "Front End Developer",
-      duration: "Jul 2024 - Present",
+      duration: "Dec 2024 - Present",
+    },
+    {
+      company: "GlobEdwise Pvt Ltd.",
+      position: "Front End Developer",
+      duration: "Jul 2024 - Dec 2024",
     },
     {
       company: "Dotzoo Inc.",
@@ -84,7 +90,7 @@ const experience = {
       duration: "Summer 2023",
     },
     {
-      company: "Elgoss Pvt Ltd",
+      company: "Elgoss Pvt Ltd.",
       position: "Internship",
       duration: "Feb 2022 - Sep 2022",
     },
@@ -185,6 +191,10 @@ const skills = {
     {
       icon: <FaWordpress />,
       name: "WordPress",
+    },
+    {
+      icon: <FaShopify />,
+      name: "Shopify",
     },
   ],
 };

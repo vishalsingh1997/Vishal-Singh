@@ -133,6 +133,23 @@ const projects = [
     live: "https://bibektrust.org/",
     github: "",
   },
+  {
+    num: "08",
+    category: "Indoor Navigation",
+    title: "Project 8",
+    description:
+      "This project enables indoor floor navigation within buildings. Users can select their current location and choose a destination via map, search bar, or sidebar. The shortest path is calculated using Dijkstra's algorithm by mapping nodes and vertices from an SVG floor plan. The system displays the path, distance, and estimated travel time. It is built as a SaaS solution, dynamically adapting themes, logos, paths, and UI elements based on the client's subdomain.",
+    stack: [
+      { name: "Next JS" },
+      { name: "Tailwind CSS" },
+      { name: "React Zoom" },
+      { name: "SVG" },
+      { name: "Git" },
+    ],
+    image: "/assets/projects/floor-navigation.png",
+    live: "",
+    github: "",
+  },
 ];
 
 const Work = () => {
