@@ -52,7 +52,7 @@ const about = {
       fieldValue: "vishal1997official@gmail.com",
       path: "mailto:vishal1997official@gmail.com",
     },
-    { fieldName: "Experience", fieldValue: "2+ Years" },
+    { fieldName: "Experience", fieldValue: "3+ Years" },
     {
       fieldName: "LinkedIN",
       fieldValue: "vishal-singh-56a9051b5",
@@ -67,7 +67,7 @@ const about = {
 const experience = {
   title: "My Experience",
   description:
-    "With over 2+ years of development experience, I’ve worked on various technologies, delivering innovative solutions and enhancing user experiences.",
+    "With over 3+ years of development experience, I’ve worked on various technologies, delivering innovative solutions and enhancing user experiences.",
   items: [
     {
       company: "Climbax Entertainment Pvt Ltd.",

@@ -18,12 +18,11 @@ const Home = () => {
               <span className="text-accent">Vishal Singh</span>
             </h1>
             <p className="max-w-[500px] mb-9 text-white/70">
-              I excel at crafting elegant digital experiences and I am
-              proficient in various programming languages and technologies.
+              I excel at crafting elegant digital experiences, specializing in <span className="text-accent">React JS</span> and <span className="text-accent">Next JS</span>, and am proficient in various programming languages and technologies.
             </p>
             {/* button and social icons  */}
             <div className="flex flex-col items-center gap-8  lg:flex-row">
-              <Link href='/assets/cv/vishalsingh.pdf' target="_blank">
+              <Link href='/assets/cv/vishal_singh_frontend_2025.pdf' target="_blank">
                 <Button
                   variant="outline"
                   size="lg"
