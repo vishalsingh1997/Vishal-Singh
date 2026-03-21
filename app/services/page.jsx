@@ -8,27 +8,42 @@ import { delay, motion } from "framer-motion";
 const services = [
   {
     num: "01",
-    title: "Web Development",
+    title: "Frontend Development",
     description:
-      "I specialize in creating high-performance websites using React and Next.js, delivering exceptional user experiences.",
+      "I create modern, responsive, and interactive user interfaces using React, Next.js, and Tailwind CSS with a strong focus on performance and user experience.",
     path: "",
   },
   {
     num: "02",
+    title: "Full Stack Web Development",
+    description:
+      "I build scalable and high-performance web applications using the MERN stack and Next.js, handling everything from frontend UI to backend APIs and database architecture.",
+    path: "",
+  },
+
+  {
+    num: "03",
     title: "WordPress Development",
     description:
       "I design visually stunning and fully customized WordPress websites using Elementor and Divi, helping you elevate your online presence with ease.",
     path: "",
   },
   {
-    num: "03",
+    num: "04",
+    title: "Shopify Development",
+    description:
+      "I develop and customize Shopify stores, including theme customization, performance optimization, and conversion-focused design to grow your eCommerce business.",
+    path: "",
+  },
+  {
+    num: "05",
     title: "SEO",
     description:
       "I offer comprehensive SEO services, expertly managing both on-page and off-page strategies to boost visibility.",
     path: "",
   },
   {
-    num: "04",
+    num: "06",
     title: "Figma Design/MockUp",
     description:
       "I can design customized logos, mock-ups, and wireframes in Figma, perfectly aligned with your project needs.",

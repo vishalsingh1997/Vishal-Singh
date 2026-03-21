@@ -18,7 +18,7 @@ const Home = () => {
               <span className="text-accent">Vishal Singh</span>
             </h1>
             <p className="max-w-[500px] mb-9 text-white/70">
-              I excel at crafting elegant digital experiences, specializing in <span className="text-accent">React JS</span> and <span className="text-accent">Next JS</span>, and am proficient in various programming languages and technologies.
+              I craft modern, high-performance digital experiences as a <span className="text-accent">Full Stack Developer</span>, specializing in <span className="text-accent">MERN stack and Next.js.</span> I build scalable web applications, intuitive user interfaces, and also develop and customize Shopify stores to help businesses grow online.
             </p>
             {/* button and social icons  */}
             <div className="flex flex-col items-center gap-8  lg:flex-row">

@@ -20,6 +20,8 @@ import {
   SiMongodb,
   SiMui,
   SiRedux,
+  SiPostgresql,
+  SiAntdesign,
 } from "react-icons/si";
 
 import { Tabs, TabsContent, TabsList, TabsTrigger } from "@/components/ui/tabs";
@@ -38,7 +40,7 @@ import Link from "next/link";
 const about = {
   title: "About Me",
   description:
-    "I’m a web developer with over 2+ years of experience, skilled in multiple technologies, always exploring new tools and enhancing my skills every day.",
+    "I’m a web developer with over 3+ years of experience, skilled in multiple technologies, always exploring new tools and enhancing my skills every day.",
   info: [
     { fieldName: "Name", fieldValue: "Vishal Singh" },
     {
@@ -71,7 +73,7 @@ const experience = {
   items: [
     {
       company: "Climbax Entertainment Pvt Ltd.",
-      position: "Front End Developer",
+      position: "Full Stack Web Developer",
       duration: "Dec 2024 - Present",
     },
     {
@@ -145,16 +147,8 @@ const skills = {
       name: "JavaScript",
     },
     {
-      icon: <FaBootstrap />,
-      name: "Bootstrap",
-    },
-    {
-      icon: <SiMui />,
-      name: "Material UI",
-    },
-    {
-      icon: <SiTailwindcss />,
-      name: "Tailwind Css",
+      icon: <SiTypescript />,
+      name: "TypeScript",
     },
     {
       icon: <FaReact />,
@@ -169,8 +163,28 @@ const skills = {
       name: "Next.JS",
     },
     {
+      icon: <FaBootstrap />,
+      name: "Bootstrap",
+    },
+    {
+      icon: <SiMui />,
+      name: "Material UI",
+    },
+    {
+      icon: <SiTailwindcss />,
+      name: "Tailwind Css",
+    },
+    {
+      icon: <SiAntdesign />,
+      name: "Ant Design",
+    },
+    {
       icon: <SiMongodb />,
       name: "MongoDB",
+    },
+    {
+      icon: <SiPostgresql />,
+      name: "PostgreSQL",
     },
     {
       icon: <SiExpress />,
@@ -181,13 +195,9 @@ const skills = {
       name: "Node JS",
     },
     {
-      icon: <SiTypescript />,
-      name: "TypeScript",
-    },
-    {
       icon: <FaGithub />,
       name: "Github",
-    },  
+    },
     {
       icon: <FaWordpress />,
       name: "WordPress",
@@ -256,12 +266,12 @@ const Resume = () => {
               {/* skills  */}
               <TabsContent value="skills" className="w-full">
                 <div className="flex flex-col gap-[30px] text-center lg:text-left">
-                 
-                    <h3 className="text-4xl font-bold">{skills.title}</h3>
-                    <p className="max-w-[600px] text-white/50 mx-auto lg:mx-0">
-                      {skills.description}
-                    </p>
-                  
+
+                  <h3 className="text-4xl font-bold">{skills.title}</h3>
+                  <p className="max-w-[600px] text-white/50 mx-auto lg:mx-0">
+                    {skills.description}
+                  </p>
+
                   <ScrollArea className="h-[400px]">
                     <ul className="grid grid-cols-2 sm:grid-cols-3 md:grid-cols-4 lg:gap-[24px] gap-3">
                       {skills.skillslist.map((skill, index) => {
