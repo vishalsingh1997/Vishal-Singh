@@ -134,19 +134,58 @@ const projects = [
     github: "",
   },
   {
-    num: "08",
-    category: "Indoor Navigation",
-    title: "Project 8",
+  num: "08",
+  category: "Frontend (SaaS Product)",
+  title: "Indoor Navigation System",
+  description:
+    "I worked as a Frontend Developer on a SaaS-based indoor navigation system designed for smart building environments. The platform allows users to select their current location and destination using an interactive map, search bar, or sidebar. I implemented the UI for calculating and displaying the shortest path using Dijkstra's algorithm by mapping nodes and vertices from SVG-based floor plans. Additionally, users can interact with cabins and rooms on the map to view real-time booking details such as status (Booked, upcoming, or available), booking duration, booking amount, and complete booking history displayed in a side panel. The application also supports a multi-tenant SaaS architecture where themes, branding, and UI elements dynamically adapt based on the client's subdomain.",
+  stack: [
+    { name: "Next JS" },
+    { name: "Tailwind CSS" },
+    { name: "React Zoom" },
+    { name: "SVG" },
+    { name: "Git" },
+  ],
+  image: "/assets/projects/floor-navigation.png",
+  live: "",
+  github: "",
+},
+  {
+    num: "09",
+    category: "Backend",
+    title: "Coworking Space Management API",
     description:
-      "This project enables indoor floor navigation within buildings. Users can select their current location and choose a destination via map, search bar, or sidebar. The shortest path is calculated using Dijkstra's algorithm by mapping nodes and vertices from an SVG floor plan. The system displays the path, distance, and estimated travel time. It is built as a SaaS solution, dynamically adapting themes, logos, paths, and UI elements based on the client's subdomain.",
+      "I developed a backend system for managing coworking space bookings and internet access control using Node.js and Express.js. The platform provides secure authentication using JWT and handles user registration, login, and session management. I designed APIs to manage bookings for meeting rooms and cabins, and integrated logic to automatically grant and revoke WiFi access based on booking duration via firewall rules. Additionally, the system tracks user data consumption, monitors peak internet usage times, and provides insights for network optimization.",
     stack: [
-      { name: "Next JS" },
-      { name: "Tailwind CSS" },
-      { name: "React Zoom" },
-      { name: "SVG" },
-      { name: "Git" },
+      { name: "Node.js" },
+      { name: "Express.js" },
+      { name: "PostgreSQL" },
+      { name: "JWT Auth" },
+      { name: "CORS" },
+      { name: "REST API" },
     ],
-    image: "/assets/projects/floor-navigation.png",
+    image: "/assets/projects/free-wifi.png", // add a relevant image or placeholder
+    live: "",
+    github: "", // add repo if available
+  },
+  {
+    num: "10",
+    category: "Fullstack",
+    title: "SaaS Badge Generator Platform",
+    description:
+      "I developed a full-stack SaaS-based badge generation platform similar to an Open Badge system. The application supports multiple user roles including Super Admin, Issuer, and Earner with role-based authentication using JWT. Issuers can create and assign skill-based badges to earners, who can then showcase and share them on LinkedIn. I built secure REST APIs for authentication (login, signup, logout) and implemented role-based access control for different dashboards. The system includes features like badge management, issuer control (enable/disable), advanced filtering and search for earners, and analytics for issued skills. The frontend is built with Next.js, Tailwind CSS, ShadCN UI, and Ant Design, while the backend uses Node.js, Express.js, and PostgreSQL.",
+    stack: [
+      { name: "Next.js" },
+      { name: "Tailwind CSS" },
+      { name: "ShadCN UI" },
+      { name: "Ant Design" },
+      { name: "Node.js" },
+      { name: "Express.js" },
+      { name: "PostgreSQL" },
+      { name: "JWT Auth" },
+      { name: "REST API" },
+    ],
+    image: "/assets/projects/badge.jpg", // add screenshot/dashboard UI
     live: "",
     github: "",
   },
